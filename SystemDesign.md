@@ -22,7 +22,6 @@ Prevent XSS attacks by sanitizing user input.
 
 
 Q. What are the best practices for organizing components, state management, and API calls in a React app?
-
 A . For a well-structured React app, use a feature-based folder structure to keep components modular and reusable. Manage local state with useState or useReducer, global state with Redux Toolkit or Zustand, and server state with React Query for caching and syncing. Centralize API calls in a services/ folder and use Axios with interceptors. Optimize performance with memoization, virtualization, and lazy loading. Ensure reliability with unit, integration, and E2E tests, and secure data with JWT, CORS, and Helmet. This keeps the app scalable, maintainable, and performant. 🚀
 
 
